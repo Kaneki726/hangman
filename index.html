@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wordModal" id="wordModal">
+        <form action="">
+            <h2>Введите ваше слово</h2>
+            <div>
+                <input id="wordInput" type="text">
+                <button id="wordButton" type="button">OK.</button>
+            </div>
+        </form>
+    </div>
+    <div class="modal" id="modal">
+        <form action="">
+            <h2>Settings</h2>
+            <div>
+                <button id="multiPl">MultiPlayer</button>
+                <button id="singlePl">SinglePlayer</button>
+            </div>
+        </form>
+    </div>
+    <form class="container">
+        <h1 id="header">Виселица</h1>
+        <div class="ImgContainer">
+            <img id="picture" src="pictures/hangman0.png" alt="">
+        </div>
+        <h2 id="shifr">*******</h2>
+        <input id="input" type="text" placeholder="?" maxlength="1">
+        <button id="newGame" type="button">Новая игра</button>
+        <button id="check">Проверть букву</button>
+        <button id="settings" type="button">Настройки</button>
+        <h3 id="usedWords">Использованные буквы :</h3>
+    </form>
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>
